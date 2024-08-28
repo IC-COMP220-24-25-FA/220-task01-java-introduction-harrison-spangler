@@ -43,6 +43,7 @@ public class CircleTest {
         assertEquals(8.3, myCircle2.longestLineWithin());
     }
 
+    @Test
     public void TestdoubleSize(){
         Circle myCircle3 = new Circle(1);
         assertEquals(6.283, myCircle3.longestLineWithin());
