@@ -1,10 +1,16 @@
 package edu.ithaca.dragon.shapes;
 
 public class Rectangle {
+    private double length;
+    private double width;
     
+    /**
+     * @throws IllegalArgumentException if radius is not a positive number
+     */
 
     public Rectangle(double length, double width){
-        throw new RuntimeException("Not implemented yet");
+        this.length = length;
+        this.width = width;
     }
 
     public double calcArea(){
